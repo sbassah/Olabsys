@@ -1,0 +1,193 @@
+@import url(autocomplete.css);
+@import url(general.css);
+@import url(popupbox.css);
+@import url(register.css);
+@import url(receipt.css);
+@import url(reports.css);
+@import url(tables.css);
+@import url(thickbox.css);
+@import url(datepicker.css);
+@import url(editsale.css);
+@import url(ospos.css);
+
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+background-color:#D5D5D5;
+font-size:12px;
+margin: 9px,9px,0px,9px;	
+padding:0; 
+}
+#main{
+padding:0;
+}
+#level0{
+background-color:#567;
+/**background-image:url(../images/menubar_bg.gif); **/
+background-repeat:repeat-x;
+border-radius:15px;
+color:#FFFFFF;
+border-bottom-style:solid;
+border-bottom-width:thin;
+border-left-style:solid;
+border-left-width:thin;
+border-right-style:solid;
+border-right-width:thin;
+border-color:#666666;
+}
+
+#header1{
+padding-left:15px;
+padding-top:20px;
+font-size:22px;
+font-weight:bolder;
+padding-right:30px;
+}
+
+#logstrip{
+margin-top:35px;
+}
+
+#logstrip ul {
+list-style-type:none;
+margin:0;
+padding-left:15px;
+}
+
+#logstrip li {
+display:inline;
+text-align:left;
+font-size:14px;
+padding-left:5px;
+}
+
+#logstrip li a {
+	color:#FFFF00;
+	text-decoration:none;
+}
+#logstrip li ul{
+display:none;
+} 
+
+#logstrip li ul {
+	display:block;
+	position:absolute;
+	margin-left:60px;
+	padding:0;
+}
+#logstrip li li{
+    float:none;
+}
+#logstrip li li a {
+	font-size:14px;
+        color:#FFFFFF;
+}
+#logstrip li li a:hover {
+	color:#FFFF00;
+}
+
+#logstrip  font {
+text-align:right;
+font-size:13px;
+display:block;
+background-color:#666666;
+padding-right:9px;
+padding-left:3px;
+padding-bottom:3px;
+padding-top:3px;
+top:0px;
+}
+
+#logstrip  font a {
+text-decoration:underline;
+color:#FFFF00;
+}
+#logstrip  font a:hover {
+text-decoration:underline;
+color:#FFFFFF;
+}
+
+#mainArea{
+background-color:#FFFFFF;
+position:relative;
+border-radius:15px;
+padding:10px;
+}
+
+#panel{
+background-color:#FFF;
+border-radius:15px;
+border:#666666 solid thin;
+height:350px;
+padding:10px;
+overflow:visible;
+}
+
+#panel div:hover {
+box-shadow:3px 3px 5px 6px #000000;
+}
+
+.lefticon{
+position:relative;
+float:left;
+width:30%;
+background:#FFFFFF;
+height:50px;
+border-radius:8px;
+border:#666666 solid thin;
+margin-bottom:15px;
+padding:5px;
+color:#666666;
+}
+
+.linkspan{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+
+.lefticon img {
+float:left;
+padding-right:5px;
+}
+.middleicon{
+position:relative;
+width:30%;
+background:#FFFFFF;
+height:50px;
+float:right;
+border-radius:8px;
+border:#666666 solid thin;
+margin-bottom:15px;
+padding:5px;
+color:#666666;
+}
+.middleicon img {
+float:left;
+padding-right:5px;
+}
+.righticon{
+position:relative;
+width:30%;
+background:#FFFFFF;
+height:50px;
+float:right;
+border-radius:8px;
+border:#666666 solid thin;
+margin-bottom:15px;
+padding:5px;
+color:#666666;
+margin-left:5px;
+margin-right:30px;
+}
+.righticon img {
+float:left;
+padding-right:5px;
+}
+#footernote{
+	text-align:center;
+	padding-top:12px;
+	color:#666;
+	font-size:10px;
+}
